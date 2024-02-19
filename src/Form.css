@@ -1,0 +1,55 @@
+.form-container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ece7e7;
+    border-radius: 5px;
+    height: 100%;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  h2 {
+    text-align: center;
+    color: black;
+  }
+  
+  .button-container {
+    text-align: center; 
+  }
+  
+  .green-button,
+  .black-button {
+    display: block; 
+    width: 100%; 
+    margin-bottom: 10px;
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .green-button {
+    background-color: green;
+  }
+  
+  .black-button {
+    background-color: black;
+  }
